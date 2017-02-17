@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8505EE851E57AAFE0088B26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8505EE841E57AAFE0088B26D /* AppDelegate.swift */; };
+		8505EE871E57AAFE0088B26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8505EE861E57AAFE0088B26D /* ViewController.swift */; };
+		8505EE8A1E57AAFE0088B26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8505EE881E57AAFE0088B26D /* Main.storyboard */; };
+		8505EE8D1E57AAFE0088B26D /* HobbyMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8505EE8B1E57AAFE0088B26D /* HobbyMap.xcdatamodeld */; };
+		8505EE8F1E57AAFE0088B26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8505EE8E1E57AAFE0088B26D /* Assets.xcassets */; };
+		8505EE921E57AAFE0088B26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8505EE901E57AAFE0088B26D /* LaunchScreen.storyboard */; };
+		8505EE9D1E57AAFE0088B26D /* HobbyMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8505EE9C1E57AAFE0088B26D /* HobbyMapTests.swift */; };
+		8505EEA81E57AAFE0088B26D /* HobbyMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8505EEA71E57AAFE0088B26D /* HobbyMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8505EE991E57AAFE0088B26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8505EE791E57AAFD0088B26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8505EE801E57AAFD0088B26D;
+			remoteInfo = HobbyMap;
+		};
+		8505EEA41E57AAFE0088B26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8505EE791E57AAFD0088B26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8505EE801E57AAFD0088B26D;
+			remoteInfo = HobbyMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8505EE811E57AAFE0088B26D /* HobbyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8505EE841E57AAFE0088B26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8505EE861E57AAFE0088B26D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8505EE891E57AAFE0088B26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8505EE8C1E57AAFE0088B26D /* HobbyMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HobbyMap.xcdatamodel; sourceTree = "<group>"; };
+		8505EE8E1E57AAFE0088B26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8505EE911E57AAFE0088B26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8505EE931E57AAFE0088B26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8505EE981E57AAFE0088B26D /* HobbyMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8505EE9C1E57AAFE0088B26D /* HobbyMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyMapTests.swift; sourceTree = "<group>"; };
+		8505EE9E1E57AAFE0088B26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8505EEA31E57AAFE0088B26D /* HobbyMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HobbyMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8505EEA71E57AAFE0088B26D /* HobbyMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyMapUITests.swift; sourceTree = "<group>"; };
+		8505EEA91E57AAFE0088B26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8505EE7E1E57AAFD0088B26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8505EE951E57AAFE0088B26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8505EEA01E57AAFE0088B26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8505EE781E57AAFD0088B26D = {
+			isa = PBXGroup;
+			children = (
+				8505EE831E57AAFE0088B26D /* HobbyMap */,
+				8505EE9B1E57AAFE0088B26D /* HobbyMapTests */,
+				8505EEA61E57AAFE0088B26D /* HobbyMapUITests */,
+				8505EE821E57AAFE0088B26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8505EE821E57AAFE0088B26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8505EE811E57AAFE0088B26D /* HobbyMap.app */,
+				8505EE981E57AAFE0088B26D /* HobbyMapTests.xctest */,
+				8505EEA31E57AAFE0088B26D /* HobbyMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8505EE831E57AAFE0088B26D /* HobbyMap */ = {
+			isa = PBXGroup;
+			children = (
+				8505EE841E57AAFE0088B26D /* AppDelegate.swift */,
+				8505EE861E57AAFE0088B26D /* ViewController.swift */,
+				8505EE881E57AAFE0088B26D /* Main.storyboard */,
+				8505EE8E1E57AAFE0088B26D /* Assets.xcassets */,
+				8505EE901E57AAFE0088B26D /* LaunchScreen.storyboard */,
+				8505EE931E57AAFE0088B26D /* Info.plist */,
+				8505EE8B1E57AAFE0088B26D /* HobbyMap.xcdatamodeld */,
+			);
+			path = HobbyMap;
+			sourceTree = "<group>";
+		};
+		8505EE9B1E57AAFE0088B26D /* HobbyMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				8505EE9C1E57AAFE0088B26D /* HobbyMapTests.swift */,
+				8505EE9E1E57AAFE0088B26D /* Info.plist */,
+			);
+			path = HobbyMapTests;
+			sourceTree = "<group>";
+		};
+		8505EEA61E57AAFE0088B26D /* HobbyMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8505EEA71E57AAFE0088B26D /* HobbyMapUITests.swift */,
+				8505EEA91E57AAFE0088B26D /* Info.plist */,
+			);
+			path = HobbyMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8505EE801E57AAFD0088B26D /* HobbyMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8505EEAC1E57AAFE0088B26D /* Build configuration list for PBXNativeTarget "HobbyMap" */;
+			buildPhases = (
+				8505EE7D1E57AAFD0088B26D /* Sources */,
+				8505EE7E1E57AAFD0088B26D /* Frameworks */,
+				8505EE7F1E57AAFD0088B26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HobbyMap;
+			productName = HobbyMap;
+			productReference = 8505EE811E57AAFE0088B26D /* HobbyMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8505EE971E57AAFE0088B26D /* HobbyMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8505EEAF1E57AAFE0088B26D /* Build configuration list for PBXNativeTarget "HobbyMapTests" */;
+			buildPhases = (
+				8505EE941E57AAFE0088B26D /* Sources */,
+				8505EE951E57AAFE0088B26D /* Frameworks */,
+				8505EE961E57AAFE0088B26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8505EE9A1E57AAFE0088B26D /* PBXTargetDependency */,
+			);
+			name = HobbyMapTests;
+			productName = HobbyMapTests;
+			productReference = 8505EE981E57AAFE0088B26D /* HobbyMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8505EEA21E57AAFE0088B26D /* HobbyMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8505EEB21E57AAFE0088B26D /* Build configuration list for PBXNativeTarget "HobbyMapUITests" */;
+			buildPhases = (
+				8505EE9F1E57AAFE0088B26D /* Sources */,
+				8505EEA01E57AAFE0088B26D /* Frameworks */,
+				8505EEA11E57AAFE0088B26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8505EEA51E57AAFE0088B26D /* PBXTargetDependency */,
+			);
+			name = HobbyMapUITests;
+			productName = HobbyMapUITests;
+			productReference = 8505EEA31E57AAFE0088B26D /* HobbyMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8505EE791E57AAFD0088B26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jairo Emilio Bautista Mora";
+				TargetAttributes = {
+					8505EE801E57AAFD0088B26D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8505EE971E57AAFE0088B26D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8505EE801E57AAFD0088B26D;
+					};
+					8505EEA21E57AAFE0088B26D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8505EE801E57AAFD0088B26D;
+					};
+				};
+			};
+			buildConfigurationList = 8505EE7C1E57AAFD0088B26D /* Build configuration list for PBXProject "HobbyMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8505EE781E57AAFD0088B26D;
+			productRefGroup = 8505EE821E57AAFE0088B26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8505EE801E57AAFD0088B26D /* HobbyMap */,
+				8505EE971E57AAFE0088B26D /* HobbyMapTests */,
+				8505EEA21E57AAFE0088B26D /* HobbyMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8505EE7F1E57AAFD0088B26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8505EE921E57AAFE0088B26D /* LaunchScreen.storyboard in Resources */,
+				8505EE8F1E57AAFE0088B26D /* Assets.xcassets in Resources */,
+				8505EE8A1E57AAFE0088B26D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8505EE961E57AAFE0088B26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8505EEA11E57AAFE0088B26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8505EE7D1E57AAFD0088B26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8505EE871E57AAFE0088B26D /* ViewController.swift in Sources */,
+				8505EE8D1E57AAFE0088B26D /* HobbyMap.xcdatamodeld in Sources */,
+				8505EE851E57AAFE0088B26D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8505EE941E57AAFE0088B26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8505EE9D1E57AAFE0088B26D /* HobbyMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8505EE9F1E57AAFE0088B26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8505EEA81E57AAFE0088B26D /* HobbyMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8505EE9A1E57AAFE0088B26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8505EE801E57AAFD0088B26D /* HobbyMap */;
+			targetProxy = 8505EE991E57AAFE0088B26D /* PBXContainerItemProxy */;
+		};
+		8505EEA51E57AAFE0088B26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8505EE801E57AAFD0088B26D /* HobbyMap */;
+			targetProxy = 8505EEA41E57AAFE0088B26D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8505EE881E57AAFE0088B26D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8505EE891E57AAFE0088B26D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8505EE901E57AAFE0088B26D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8505EE911E57AAFE0088B26D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8505EEAA1E57AAFE0088B26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8505EEAB1E57AAFE0088B26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8505EEAD1E57AAFE0088B26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HobbyMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deuxexmovil.HobbyMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8505EEAE1E57AAFE0088B26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HobbyMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deuxexmovil.HobbyMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8505EEB01E57AAFE0088B26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HobbyMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deuxexmovil.HobbyMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HobbyMap.app/HobbyMap";
+			};
+			name = Debug;
+		};
+		8505EEB11E57AAFE0088B26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HobbyMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deuxexmovil.HobbyMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HobbyMap.app/HobbyMap";
+			};
+			name = Release;
+		};
+		8505EEB31E57AAFE0088B26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HobbyMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deuxexmovil.HobbyMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HobbyMap;
+			};
+			name = Debug;
+		};
+		8505EEB41E57AAFE0088B26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HobbyMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deuxexmovil.HobbyMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HobbyMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8505EE7C1E57AAFD0088B26D /* Build configuration list for PBXProject "HobbyMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8505EEAA1E57AAFE0088B26D /* Debug */,
+				8505EEAB1E57AAFE0088B26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8505EEAC1E57AAFE0088B26D /* Build configuration list for PBXNativeTarget "HobbyMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8505EEAD1E57AAFE0088B26D /* Debug */,
+				8505EEAE1E57AAFE0088B26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8505EEAF1E57AAFE0088B26D /* Build configuration list for PBXNativeTarget "HobbyMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8505EEB01E57AAFE0088B26D /* Debug */,
+				8505EEB11E57AAFE0088B26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8505EEB21E57AAFE0088B26D /* Build configuration list for PBXNativeTarget "HobbyMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8505EEB31E57AAFE0088B26D /* Debug */,
+				8505EEB41E57AAFE0088B26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8505EE8B1E57AAFE0088B26D /* HobbyMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8505EE8C1E57AAFE0088B26D /* HobbyMap.xcdatamodel */,
+			);
+			currentVersion = 8505EE8C1E57AAFE0088B26D /* HobbyMap.xcdatamodel */;
+			path = HobbyMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8505EE791E57AAFD0088B26D /* Project object */;
+}
